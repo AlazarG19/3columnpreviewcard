@@ -14,7 +14,7 @@ setting up the buttons border was a little hard since i didnt do it before
 
 ##Live Site URL 
 
-Website  https://alazarg19.github.io/Order-Summary-component/ 
+Website https://alazarg19.github.io/3columnpreviewcard/ 
 
 
 ##My process 
@@ -34,6 +34,6 @@ using the border width,border style and border color attribute
  
 
 ## Author 
-Website  https://alazarg19.github.io/Order-Summary-component/Frontend Mentor @AlazarG19 
+Website  https://alazarg19.github.io/3columnpreviewcard/ @AlazarG19 
 
 ## Acknowledgments 
