@@ -22,7 +22,7 @@ main {
   display: flex;
   flex-direction: row;
   width: 65vw;
-  margin-top: 70px;
+  margin-top: 150px;
   border-radius: 15px;
 }
 main > div {
