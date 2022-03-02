@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+/* font-family: 'Lexend Deca', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+/* font-family: 'Big Shoulders Display', cursive; */
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --Brightorange: rgb(227, 136, 38);
+  --Darkcyan: rgb(0, 105, 112);
+  --Verydarkcyan: rgb(0, 66, 65);
+  --Transparentwhite: rgba(255, 255, 255, 0.75);
+  --Verylightgray: rgb(242, 242, 242);
+}
+body {
+  display: flex;
+  justify-content: center;
+  background-color: var(--Verylightgray);
+}
+main {
+  display: flex;
+  flex-direction: row;
+  width: 65vw;
+  margin-top: 150px;
+  border-radius: 15px;
+}
+main > div {
+  padding: 50px;
+}
+main > div:nth-of-type(1) {
+  background: var(--Brightorange);
+  border-radius: 7px 0px 0px 7px;
+}
+main > div:nth-of-type(2) {
+  background: var(--Darkcyan);
+}
+main > div:nth-of-type(3) {
+  background: var(--Verydarkcyan);
+  border-radius: 0px 7px 7px 0px;
+}
+.title {
+  color: var(--Verylightgray);
+  margin-top: 40px;
+  font-size: 40px;
+  font-family: "Big Shoulders Display", cursive;
+}
+.details {
+    height: 230px;
+    line-height: 29px;
+  margin-top: 40px;
+  color: var(--Transparentwhite);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.button {
+    margin-top: 90px;
+  padding: 10px 25px 10px 25px;
+  background: var(--Verylightgray);
+  border: 1px;
+  font-family: "Lexend Deca", sans-serif;
+  border-radius: 18px;
+}
+main > div:nth-of-type(1) > button {
+  color: var(--Brightorange);
+}
+main > div:nth-of-type(2) > button {
+  color: var(--Darkcyan);
+}
+main > div:nth-of-type(3) > button {
+  color: var(--Verydarkcyan);
+}
+main > div:nth-of-type(1) > button:hover {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--Verylightgray);
+  color: var(--Verylightgray);
+  background-color: var(--Brightorange);
+  cursor: pointer;
+}
+main > div:nth-of-type(2) > button:hover {
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--Verylightgray);
+  color: var(--Verylightgray);
+  background-color: var(--Darkcyan);
+  cursor: pointer;
+}
+main > div:nth-of-type(3) > button :hover{
+  border-width: 2px;
+  border-style: solid;
+  border-color: var(--Verylightgray);
+  color: var(--Verylightgray);
+  background-color: var(--Verydarkcyan);
+  cursor: pointer;
+}
+@media screen and (max-width: 375px) {
+  main {
+    flex-direction: column;
+    width: 85vw;
+    margin-bottom: 100px;
+  }
+  main > div:nth-of-type(1) {
+    background: var(--Brightorange);
+    border-radius: 7px 7px 0px 0px;
+  }
+  main > div:nth-of-type(3) {
+    border-radius: 0px 0px 7px 7px;
+  }
+}
