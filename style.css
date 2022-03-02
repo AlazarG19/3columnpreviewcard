@@ -22,7 +22,7 @@ main {
   display: flex;
   flex-direction: row;
   width: 65vw;
-  margin-top: 150px;
+  margin-top: 70px;
   border-radius: 15px;
 }
 main > div {
@@ -41,20 +41,20 @@ main > div:nth-of-type(3) {
 }
 .title {
   color: var(--Verylightgray);
-  margin-top: 40px;
+  margin-top: 20px;
   font-size: 40px;
   font-family: "Big Shoulders Display", cursive;
 }
 .details {
-    height: 230px;
-    line-height: 29px;
-  margin-top: 40px;
+    height: 210px;
+    line-height: 25px;
+  margin-top: 20px;
   color: var(--Transparentwhite);
   font-size: 15px;
   font-family: "Lexend Deca", sans-serif;
 }
 .button {
-    margin-top: 90px;
+    margin-top: 20px;
   padding: 10px 25px 10px 25px;
   background: var(--Verylightgray);
   border: 1px;
